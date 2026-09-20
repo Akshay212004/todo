@@ -1,0 +1,16 @@
+# dependencies
+node_modules/
+
+# secrets - never commit
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# temp folder used by scripts/setup-frontend.js
+Frontend-src/
