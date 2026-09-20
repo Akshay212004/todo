@@ -5,7 +5,7 @@
   "description": "REST API for the React Native To-Do app (Express, MongoDB Atlas, JWT)",
   "main": "server.js",
   "scripts": {
-    "build": "tsc",
+    "build": "node --check server.js",
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
